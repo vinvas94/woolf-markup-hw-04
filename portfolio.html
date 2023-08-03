@@ -65,15 +65,19 @@
         <div class="container">
           <h1 class="visually-hidden">Page-navigation</h1>
           <ul class="list navigation-list">
-            <li><button class="btn-page" type="button">All</button></li>
-            <li><button class="btn-page" type="button">Web Site</button></li>
-            <li><button class="btn-page" type="button">App</button></li>
-            <li><button class="btn-page" type="button">Design</button></li>
-            <li><button class="btn-page" type="button">Marketing</button></li>
+            <li><button class="btn-portfolio" type="button">All</button></li>
+            <li>
+              <button class="btn-portfolio" type="button">Web Site</button>
+            </li>
+            <li><button class="btn-portfolio" type="button">App</button></li>
+            <li><button class="btn-portfolio" type="button">Design</button></li>
+            <li>
+              <button class="btn-portfolio" type="button">Marketing</button>
+            </li>
           </ul>
           <ul class="list portfolio-list">
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img.jpg"
@@ -81,13 +85,11 @@
                     width="360"
                     height="300"
                   />
-                  <div class="overley">
-                    <p class="overley-cards">
-                      14 Stylish and User-Friendly App Design Concepts · Task
-                      Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                      App · Cloud Storage App
-                    </p>
-                  </div>
+                  <p class="overley-cards">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
                 </div>
                 <div class="portfolio-text-cards">
                   <h2 class="portfolio-subheadings">
@@ -98,7 +100,7 @@
               </a>
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img1.jpg"
@@ -121,7 +123,7 @@
               </a>
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img2.jpg"
@@ -144,7 +146,7 @@
               </a>
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img3.jpg"
@@ -167,7 +169,7 @@
               >
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img4.jpg"
@@ -190,7 +192,7 @@
               >
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img5.jpg"
@@ -213,7 +215,7 @@
               >
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img6.jpg"
@@ -238,7 +240,7 @@
               >
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img7.jpg"
@@ -261,7 +263,7 @@
               >
             </li>
             <li class="portfolio-cards">
-              <a class="link" href="">
+              <a class="link portfolio-link" href="">
                 <div class="overley-position">
                   <img
                     src="./images/page2/img8.jpg"
@@ -291,7 +293,7 @@
     <!--   FOOTER -->
     <footer class="footer-page">
       <div class="container footer-flex">
-        <div class="footer-logo">
+        <div class="footer-logo-container">
           <a class="logo link link-footer" href="./index.html"
             >Web<span class="accent-logo-footer">Studio</span>
           </a>
@@ -300,7 +302,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <section class="social-footer">
+        <div class="social-footer">
           <h3 class="social-media-heading">Social media</h3>
           <ul class="media-list list">
             <li class="media-list-item">
@@ -332,7 +334,7 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
       </div>
     </footer>
   </body>

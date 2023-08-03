@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="shortcut icon" href="./images/Logo.svg" type="image/svg" />
+    <!-- <link rel="shortcut icon" href="./images/Logo.svg" type="image/svg" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -79,11 +79,11 @@
           <h2 class="headings-h2 visually-hidden">Work</h2>
           <ul class="list work-list">
             <li class="work-cards">
-              <a class="work-icon" href>
+              <div class="icon-container-work">
                 <svg class="work-list-icon" width="64" height="64">
                   <use href="./images/sprite_svg.svg#icon-antenna"></use>
                 </svg>
-              </a>
+              </div>
               <h3 class="section-subheadings">Strategy</h3>
               <p class="section-description">
                 Our goal is to identify the business problem to walk away with
@@ -91,11 +91,11 @@
               </p>
             </li>
             <li class="work-cards">
-              <a class="work-icon" href>
+              <div class="icon-container-work">
                 <svg class="work-list-icon" width="64" height="64">
                   <use href="./images/sprite_svg.svg#icon-clock"></use>
                 </svg>
-              </a>
+              </div>
               <h3 class="section-subheadings">Punctuality</h3>
               <p class="section-description">
                 Bring the key message to the brand's audience for the best price
@@ -103,11 +103,11 @@
               </p>
             </li>
             <li class="work-cards">
-              <a class="work-icon" href>
+              <div class="icon-container-work">
                 <svg class="work-list-icon" width="64" height="64">
                   <use href="./images/sprite_svg.svg#icon-diagram"></use>
                 </svg>
-              </a>
+              </div>
               <h3 class="section-subheadings">Diligence</h3>
               <p class="section-description">
                 Research and confirm brands that present the strongest digital
@@ -115,11 +115,11 @@
               </p>
             </li>
             <li class="work-cards">
-              <a class="work-icon" href>
+              <div class="icon-container-work">
                 <svg class="work-list-icon" width="64" height="64">
                   <use href="./images/sprite_svg.svg#icon-astronaut"></use>
                 </svg>
-              </a>
+              </div>
               <h3 class="section-subheadings">Technologies</h3>
               <p class="section-description">
                 Design practice focused on digital experiences. We bring forth a
@@ -407,7 +407,7 @@
     <!-- FOOTER -->
     <footer class="footer-page">
       <div class="container footer-flex">
-        <div class="footer-logo">
+        <div class="footer-logo-container">
           <a class="logo link link-footer" href="./index.html"
             >Web<span class="accent-logo-footer">Studio</span>
           </a>
@@ -416,7 +416,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <section class="social-footer">
+        <div class="social-footer">
           <h3 class="social-media-heading">Social media</h3>
           <ul class="media-list list">
             <li class="media-list-item">
@@ -448,7 +448,7 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
       </div>
     </footer>
     <!-- // FOOTER -->
